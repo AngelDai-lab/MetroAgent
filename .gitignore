@@ -1,0 +1,52 @@
+# ============ Visual Studio ============
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+
+# ============ C++ 编译产物 ============
+x64/
+Debug/
+Release/
+*.obj
+*.o
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.lastbuildstate
+*.exe
+*.recipe
+*.log
+*.ipch
+ipch/
+
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ============ 密钥（绝不提交）============
+.env
+*.key
+
+# ============ OS ============
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# ============ 编辑器 ============
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
